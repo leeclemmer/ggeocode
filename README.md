@@ -1,6 +1,9 @@
 # ggeocode
 
-Wrapper for the Google Geocoder V3 API. Read the [Google Geocoder API documentation][https://developers.google.com/maps/documentation/geocoding/] for further details on what kind of requests are possible.
+© ggeocode project and individual contributors,
+[MIT License](https://github.com/leeclemmer/ggeocode/blob/master/LICENSE)
+
+Wrapper for the Google Geocoder V3 API. Read the [Google Geocoder API documentation](https://developers.google.com/maps/documentation/geocoding/) for further details on what kind of requests are possible.
 
 ## Usage
 
