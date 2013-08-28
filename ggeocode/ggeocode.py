@@ -17,7 +17,6 @@ class GGeocode():
 					   latlng='',
 					   client='',
 					   signature='',
-					   key='',
 					   bounds='',
 					   language='',
 					   region=''):
@@ -74,7 +73,6 @@ class GGeocode():
 
 		# optional parameters:
 		#	client and signature
-		#	key
 		#	bounds
 		#	language
 		#	region
@@ -84,8 +82,6 @@ class GGeocode():
 		if client and signature:
 			self.params['client'] = client
 			self.params['signature'] = signature
-
-		if key: self.params['key'] = key
 
 		if bounds: self.params['bounds'] = bounds
 
